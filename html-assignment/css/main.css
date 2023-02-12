@@ -35,6 +35,9 @@ nav ul {
 
 nav li a {
   text-decoration: none;
-  background-color: brown;
+  background-color: lightgreen;
   border: 4px;
+}
+li a:hover {
+  background-color: coral;
 }
