@@ -1,0 +1,30 @@
+/* styling navigation */
+nav ul {
+  list-style: none;
+}
+
+/* Inheritance */
+a body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+header,
+footer {
+  background-color: goldenrod;
+}
+.site-title {
+  color: white;
+}
+
+#my-image {
+  box-shadow: 0 0 2px 1px black;
+}
+
+.hobbies {
+  list-style: square;
+}
+
+.hobbies li:nth-child(odd) {
+  background: lightgreen;
+}
