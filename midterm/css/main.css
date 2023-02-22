@@ -12,6 +12,26 @@ body {
 
 /* Header with background image  */
 
+.back-image {
+  background-image: url(../images/lone-starfish-wide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.main-header {
+  padding-top: 150px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-weight: normal;
+  position: absolute;
+  top: 1.5%;
+  left: 35%;
+}
+
 /* setting nav bar */
 
 /* Starfish picture */
