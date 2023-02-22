@@ -1,3 +1,5 @@
+/* Background colors */
+
 .entire {
   background-color: #d4e9e7;
 }
@@ -8,43 +10,17 @@ body {
   padding-inline: 200px;
 }
 
-h1 {
-  display: block;
-  font-weight: bold;
-  font-size: 2em;
-  color: white;
-  width: 100%;
-  height: 350px;
-}
-.lone-text {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -80%);
-  width: 100%;
-  text-align: center;
-}
+/* Header with background image  */
 
-.lone-text h1 {
-  font-size: 4.5vw;
-  font-weight: normal;
-}
+/* setting nav bar */
 
-header {
-  display: block;
-  margin: 0px;
-}
-
-header img {
-  width: 100%;
-  margin: 0px;
-  position: relative;
-}
+/* Starfish picture */
 
 .title-starfish {
   font-weight: normal;
   font-size: 30px;
 }
+
 .lone-starfish {
   height: 200px;
   width: 200px;
@@ -54,3 +30,5 @@ header img {
 .main-text {
   font-size: 18px;
 }
+
+/* Contact box */
