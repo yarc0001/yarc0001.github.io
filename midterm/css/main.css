@@ -96,7 +96,7 @@ body {
 .contact-form {
   border: 1px solid rgb(0, 0, 0);
   padding: 30px 20px 10px 10px;
-  margin: 10px 10px 60px;
+  margin: 10px 10px 20px;
 }
 .contact-question label {
   display: block;
@@ -131,4 +131,14 @@ button {
   width: 45px;
   margin-bottom: 0.55%;
   margin-left: 0.5%;
+}
+
+/* Footer */
+
+footer {
+  font-size: 14px;
+  text-align: right;
+  padding-bottom: 20px;
+  padding-top: 0.4%;
+  margin-right: 19px;
 }
