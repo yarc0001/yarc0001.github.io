@@ -78,29 +78,37 @@
       </main>
       <h3 class="contact-title">Contact to learn more</h3>
       <div class="contact-form">
-        <form action="thanks.html" method="post">
-          <label for="fullname">Your Name</label>
-          <input id="fullname" />
-        </form>
-        <form action="thanks.html" method="post">
-          <label for="email">Your Email</label>
-          <input id="email" />
-        </form>
-        <form action="thanks.html" method="post">
-          <label for="message">Your Message</label>
-          <textarea id="message"></textarea>
-        </form>
-        <h4>Would you like to visit the starfish</h4>
-        <form action="thanks.html" method="post">
-          <label for="little">Yes</label>
-          <input type="radio" id="little" name="visit" value="Yes" />
-          <label for="some">No</label>
-          <input type="radio" id="some" name="visit" value="No" checked />
-          <label for="alot">Maybe</label>
-          <input type="radio" id="alot" name="visit" value="Maybe" />
-        </form>
+        <div class="contact-question">
+          <form action="thanks.html" method="post">
+            <label for="fullname">Your Name</label>
+            <input id="fullname" />
+          </form>
+        </div>
+        <div class="contact-question">
+          <form action="thanks.html" method="post">
+            <label for="email">Your Email</label>
+            <input id="email" />
+          </form>
+        </div>
+        <div class="contact-question">
+          <form action="thanks.html" method="post">
+            <label for="message">Your Message</label>
+            <textarea id="message"></textarea>
+          </form>
+        </div>
+        <div class="contact-visit">
+          <h4 class="visit-question">Would you like to visit the starfish</h4>
+          <form action="thanks.html" method="post">
+            <label for="little">Yes</label>
+            <input type="radio" id="little" name="visit" value="Yes" />
+            <label for="some">No</label>
+            <input type="radio" id="some" name="visit" value="No" checked />
+            <label for="alot">Maybe</label>
+            <input type="radio" id="alot" name="visit" value="Maybe" />
+          </form>
+        </div>
+        <button type="submit">Send</button>
       </div>
-      <button type="submit">Send</button>
       <footer>
         <p id="copyright">&copy; Lone Starfish.</p>
       </footer>
