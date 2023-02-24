@@ -1,14 +1,16 @@
 /* Background colors */
 
-main {
-  background-color: #d4e9e7;
+body {
+  background-color: #aad4cf;
 }
 
-body {
+.wrapper {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #aad4cf;
-  padding-inline: 200px;
+  background-color:#d4e9e7;
+  width: 1100px;
+  margin: auto;
 }
+
 
 /* Header with background image  */
 
@@ -55,11 +57,12 @@ body {
 
 /* Setting starfish picture, Wrapping text around pic and formatting list */
 
+
 .title-starfish {
   font-weight: normal;
   font-size: 30px;
-  padding-left: 1%;
   margin-bottom: 1%;
+  padding-left: 1%;
 }
 
 .lone-starfish {
@@ -70,15 +73,16 @@ body {
 }
 .main-text {
   font-size: 16.4px;
-  padding-right: 3%;
+  padding-right: 1%;
   padding-left: 1%;
+  text-align: left;
 }
 
 .facts {
   font-size: 27px;
   font-weight: normal;
-  padding-left: 1%;
   margin-bottom: 7px;
+  padding-left: 1%;
 }
 
 .facts-list {
@@ -89,9 +93,9 @@ body {
 /* Contact box */
 
 .contact-title {
-  padding-left: 1%;
   font-size: 27px;
   font-weight: normal;
+  padding-left: 1%;
 }
 .contact-form {
   border: 1px solid rgb(0, 0, 0);
