@@ -1,1 +1,422 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  color: #222;
+}
+
+@media screen and (max-width: 760px) {
+  /* Navigation */
+
+  .wrapper-nav {
+    background-color: #222;
+    padding: 14px;
+  }
+
+  .logo {
+    background-color: #c78c06;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    background-color: #222;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    margin-top: 0;
+  }
+
+  .home-nav {
+    background-color: #c78c06;
+    padding: 16px 16px 16px 16px;
+    margin-top: 0;
+    color: #222;
+  }
+
+  nav .home-nav a:visited {
+    font-size: 18px;
+    color: #222;
+    display: block;
+  }
+
+  nav a:visited {
+    font-size: 18px;
+    color: #c78c06;
+    display: block;
+  }
+  nav ul li a,
+  .a1,
+  .s1,
+  .t1,
+  .c1 {
+    text-decoration: none;
+    color: #c78c06;
+  }
+
+  .search-bar {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  .search-bar input {
+    background-color: white;
+    width: 90%;
+    height: 31px;
+    margin-top: 5px;
+    border: none;
+  }
+
+  .fa-magnifying-glass {
+    color: #c78c06;
+    padding: 8px 8px 8px 8px;
+    border: solid 1px #c78c06;
+  }
+
+  /* Header */
+
+  .welcome-header {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .wrapper-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: auto;
+    height: auto;
+  }
+  h1 {
+    font-size: 81px;
+    line-height: 106px;
+    font-weight: bolder;
+    margin-left: 10px;
+    padding-top: 50px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 14px;
+    display: grid;
+    grid-row: 0;
+    height: 60px;
+  }
+
+  .connect-button {
+    height: 100px;
+    width: 250px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+    color: #222;
+    border: none;
+    font-weight: lighter;
+    margin-top: 20px;
+    background-color: #c78c06;
+  }
+
+  /* About us */
+
+  .wrapper-about {
+    background-color: #ffe6ac;
+    margin-bottom: 1px;
+    padding: 14px;
+  }
+  .about-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 3rem;
+    line-height: 1;
+    padding: 9px;
+    font-weight: bolder;
+  }
+
+  .paragraph-about {
+    font-weight: 100;
+    height: 90px;
+  }
+
+  /* Our services */
+
+  .services-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .fa-play {
+    color: white;
+    padding-left: 15px;
+  }
+
+  /* Digital Transformation */
+
+  .digital {
+    background-color: #ffe6ac;
+    padding-bottom: 50px;
+  }
+
+  .digital-img {
+    width: 100%;
+  }
+
+  .digital-button {
+    padding-top: 0%;
+    height: 100px;
+    width: 250px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-weight: lighter;
+    margin-top: 20px;
+    background-color: #222;
+  }
+
+  /* Marketing */
+
+  .marketing {
+    margin-top: 15px;
+    background-color: #ffe6ac;
+    padding-bottom: 7px;
+  }
+
+  .marketing-img {
+    width: 100%;
+  }
+
+  .marketing-button {
+    padding-top: 0%;
+    height: 100px;
+    width: 250px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-weight: lighter;
+    margin-top: 20px;
+    background-color: #222;
+  }
+
+  /* Video Production  */
+
+  .video {
+    margin-top: 15px;
+    background-color: #ffe6ac;
+    padding-bottom: 7px;
+  }
+
+  .video-img {
+    width: 100%;
+  }
+
+  .video-button {
+    padding-top: 0%;
+    height: 100px;
+    width: 250px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-weight: lighter;
+    margin-top: 20px;
+    background-color: #222;
+  }
+
+  /* Web Development */
+
+  .web {
+    margin-top: 15px;
+    background-color: #ffe6ac;
+    padding-bottom: 7px;
+  }
+
+  .web-img {
+    width: 100%;
+  }
+
+  .web-button {
+    padding-top: 0%;
+    height: 100px;
+    width: 250px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-weight: lighter;
+    margin-top: 20px;
+    background-color: #222;
+  }
+
+  /* Print */
+  .print {
+    margin-top: 15px;
+    background-color: #ffe6ac;
+    padding-bottom: 7px;
+  }
+
+  .print-img {
+    width: 100%;
+  }
+
+  .print-button {
+    padding-top: 0%;
+    height: 100px;
+    width: 250px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-weight: lighter;
+    margin-top: 20px;
+    background-color: #222;
+  }
+}
