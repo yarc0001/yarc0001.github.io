@@ -133,6 +133,7 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   color: #222;
+  padding: 14px;
 }
 
 @media screen and (max-width: 760px) {
@@ -145,19 +146,20 @@ body {
 
   .logo {
     background-color: #c78c06;
+    padding: 10ox;
   }
 
   nav ul li {
     list-style-type: none;
     background-color: #222;
     text-align: center;
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
     margin-top: 0;
   }
 
   .home-nav {
     background-color: #c78c06;
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
     margin-top: 0;
     color: #222;
   }
@@ -183,8 +185,7 @@ body {
   }
 
   .search-bar {
-    padding-left: 1px;
-    padding-right: 1px;
+    padding: 1px 0 1px 0;
   }
   .search-bar input {
     background-color: white;
@@ -196,7 +197,7 @@ body {
 
   .fa-magnifying-glass {
     color: #c78c06;
-    padding: 8px 8px 8px 8px;
+    padding: 8px;
     border: solid 1px #c78c06;
   }
 
@@ -206,7 +207,8 @@ body {
     background-image: url(../images/main-banner.jpg);
     background-size: cover;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
+    height: 490px;
   }
 
   .wrapper-header {
@@ -217,7 +219,7 @@ body {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     width: auto;
-    height: auto;
+    height: 485px;
   }
   h1 {
     font-size: 81px;
@@ -227,7 +229,7 @@ body {
     padding-top: 50px;
   }
 
-  p {
+  .welcome-header p {
     font-size: 16px;
     padding: 14px;
     display: grid;
@@ -263,31 +265,37 @@ body {
   h2 {
     font-size: 3rem;
     line-height: 1;
-    padding: 9px;
+    padding-top: 9px;
     font-weight: bolder;
+    padding-bottom: 7px;
   }
 
   .paragraph-about {
-    font-weight: 100;
     height: 90px;
+    font-size: 14px;
+    margin-bottom: -10px;
+    margin-top: 10px;
   }
 
   /* Our services */
 
+  .wrapper-services p {
+    font-size: 14px;
+    padding: 14px;
+  }
   .services-title {
     margin-top: 30px;
     margin-bottom: 15px;
   }
 
-  h3 {
+  .wrapper-services h3 {
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 0.5rem;
-    margin-top: 30px;
-    padding-bottom: 10px;
+    margin-top: 18px;
+    margin-left: 14px;
   }
 
-  .fa-play {
+  .fa-button {
     color: white;
     padding-left: 15px;
   }
@@ -296,7 +304,7 @@ body {
 
   .digital {
     background-color: #ffe6ac;
-    padding-bottom: 50px;
+    padding-bottom: 6px;
   }
 
   .digital-img {
@@ -304,25 +312,24 @@ body {
   }
 
   .digital-button {
-    padding-top: 0%;
-    height: 100px;
-    width: 250px;
-    margin-left: 0.5rem;
+    height: 86px;
+    width: 200px;
+    margin-left: 0.8rem;
     margin-bottom: 0.5rem;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     border: none;
     font-weight: lighter;
-    margin-top: 20px;
+    margin-top: 1px;
     background-color: #222;
   }
 
   /* Marketing */
 
   .marketing {
-    margin-top: 15px;
+    margin-top: 12px;
     background-color: #ffe6ac;
-    padding-bottom: 7px;
+    padding-bottom: 6px;
   }
 
   .marketing-img {
@@ -330,25 +337,24 @@ body {
   }
 
   .marketing-button {
-    padding-top: 0%;
-    height: 100px;
-    width: 250px;
-    margin-left: 0.5rem;
+    height: 86px;
+    width: 200px;
+    margin-left: 0.8rem;
     margin-bottom: 0.5rem;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     border: none;
     font-weight: lighter;
-    margin-top: 20px;
+    margin-top: 1px;
     background-color: #222;
   }
 
   /* Video Production  */
 
   .video {
-    margin-top: 15px;
+    margin-top: 12px;
     background-color: #ffe6ac;
-    padding-bottom: 7px;
+    padding-bottom: 6px;
   }
 
   .video-img {
@@ -356,25 +362,24 @@ body {
   }
 
   .video-button {
-    padding-top: 0%;
-    height: 100px;
-    width: 250px;
-    margin-left: 0.5rem;
+    height: 86px;
+    width: 200px;
+    margin-left: 0.8rem;
     margin-bottom: 0.5rem;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     border: none;
     font-weight: lighter;
-    margin-top: 20px;
+    margin-top: 1px;
     background-color: #222;
   }
 
   /* Web Development */
 
   .web {
-    margin-top: 15px;
+    margin-top: 12px;
     background-color: #ffe6ac;
-    padding-bottom: 7px;
+    padding-bottom: 6px;
   }
 
   .web-img {
@@ -382,22 +387,21 @@ body {
   }
 
   .web-button {
-    padding-top: 0%;
-    height: 100px;
-    width: 250px;
-    margin-left: 0.5rem;
+    height: 86px;
+    width: 200px;
+    margin-left: 0.8rem;
     margin-bottom: 0.5rem;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     border: none;
     font-weight: lighter;
-    margin-top: 20px;
+    margin-top: 1px;
     background-color: #222;
   }
 
   /* Print */
   .print {
-    margin-top: 15px;
+    margin-top: 12px;
     background-color: #ffe6ac;
     padding-bottom: 7px;
   }
@@ -407,16 +411,126 @@ body {
   }
 
   .print-button {
-    padding-top: 0%;
-    height: 100px;
-    width: 250px;
-    margin-left: 0.5rem;
+    height: 86px;
+    width: 200px;
+    margin-left: 0.8rem;
     margin-bottom: 0.5rem;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     border: none;
     font-weight: lighter;
-    margin-top: 20px;
+    margin-top: 1px;
     background-color: #222;
+  }
+
+  /* Vision */
+
+  .vision {
+    margin-top: 28px;
+    margin-bottom: 30px;
+    background: url(../images/vision.jpg) center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 280px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    font-size: 15px;
+    padding: 14px;
+  }
+
+  .vision-text h3 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 18px;
+  }
+
+  .vision button {
+    color: white;
+    border: solid #c78c06;
+    grid-row: 6;
+    padding-left: 12px;
+    height: 100px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 16px;
+    background-color: #17263d;
+    letter-spacing: 1px;
+  }
+
+  /* Our team */
+  .wrapper-team h2 {
+    margin-bottom: 15px;
+  }
+
+  .wrapper-team p {
+    padding: 14px;
+  }
+
+  /* CEO */
+  .ceo {
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+  }
+
+  .ceo-img {
+    width: 100%;
+  }
+
+  .ceo-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 14px;
+  }
+
+  .ceo-subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 0 0 14px;
+  }
+
+  .line-ceo {
+    border: 1px solid #c78c06;
+    margin: 8px 8px 14px 14px;
+  }
+
+  .ceo p {
+    margin-top: -15px;
+    font-size: 14px;
+  }
+
+  /* CFO */
+  .cfo {
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+  }
+
+  .cfo-img {
+    width: 100%;
+  }
+
+  .cfo-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 14px;
+  }
+
+  .cfo-subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 0 0 14px;
+  }
+
+  .line-cfo {
+    border: 1px solid #c78c06;
+    margin: 8px 8px 14px 14px;
+  }
+
+  .cfo p {
+    margin-top: -15px;
+    font-size: 14px;
   }
 }
