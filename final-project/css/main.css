@@ -219,7 +219,7 @@ body {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     width: auto;
-    height: 485px;
+    height: 580px;
   }
   h1 {
     font-size: 81px;
