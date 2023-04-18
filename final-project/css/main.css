@@ -136,7 +136,7 @@ body {
   padding: 14px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (min-width: 760px) {
   /* Navigation */
 
   .wrapper-nav {
@@ -146,7 +146,7 @@ body {
 
   .logo {
     background-color: #c78c06;
-    padding: 10ox;
+    padding: 10px;
   }
 
   nav ul li {
@@ -534,7 +534,11 @@ body {
     font-size: 14px;
   }
 
-  /* Coontact us */
+  /* Contact us */
+
+  .contact {
+    margin-top: 60px;
+  }
 
   .contact form {
     display: flex;
@@ -624,4 +628,6 @@ body {
   .footer-text {
     padding-top: 15px;
   }
+}
+@media screen and (min-width: 760px) and (max-width: 1200px) {
 }
