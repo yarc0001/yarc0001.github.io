@@ -608,10 +608,10 @@ footer a {
     justify-content: center;
   }
 
+
   .wrapper-about h2 {
     font-size: 40px;
-    padding: 20px 14px 0 14px;
-    padding-top: 20px;
+    padding: 20px 14px 10px 14px;
     font-weight: 700;
     display: flex;
   }
@@ -622,11 +622,13 @@ footer a {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
+    padding-top: 18px;
+    padding-bottom: 6px;
   }
 
-  .wrapper-about p {
-    padding: 14px;
-    line-height: 1.5;
+  .paragraph-about {
+    font-size: small;
+    padding: 0px 7px 14px 14px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -641,7 +643,7 @@ footer a {
 
   .services-title {
     font-size: 3.5rem;
-    margin: 20px 0 10px 0;
+    margin: 14px 0 10px 0;
     font-weight: bolder;
   }
 
