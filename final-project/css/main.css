@@ -271,7 +271,7 @@ h1 {
 
 .wrapper-services h2 {
   font-size: 3.5rem;
-  margin: 20px 0 10px 0;
+  margin: 14px 0 10px 0;
   font-weight: bolder;
 }
 
@@ -638,12 +638,12 @@ footer a {
   /* Services */
 
   .wrapper-services {
-    padding: 50px;
+    padding: 20px;
   }
 
   .services-title {
     font-size: 3.5rem;
-    margin: 14px 0 10px 0;
+    margin: 0px 0 10px 0;
     font-weight: bolder;
   }
 
