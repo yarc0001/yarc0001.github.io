@@ -21,26 +21,25 @@
    <body>
       <header>
          <!-- Nav -->
-         <nav>
-            <div class="wrapper-nav">
-               <div class="logo"><img src="images/logo.png" alt="logo"></div>
-               <div class="nav-elements">
+         <div class="wrapper-nav">
+               <div class="logo">
+                  <img src="images/logo.png" alt="logo">
+               </div>
+            <nav>
                   <ul>
                      <li class="home-nav"><a href="#">Home</a></li>
                      <li><a href="#">About Us</a></li>
                      <li><a href="#">Services</a></li>
                      <li><a href="#">Team</a></li>
                      <li><a href="#">Contact</a></li>
+                     <li><input type="text" placeholder="Search" >
+                     <i class="fa-sharp fa-solid fa-magnifying-glass"></i></li>
                   </ul>
-                  <div class="search-bar">
-                     <form>
-                        <input type="text" placeholder="Search" >
-                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                     </form>
-                  </div>
-               </div>
-            </div>
-         </nav>
+            </nav>
+         </div>
+      </header>
+      <!-- Main -->
+      <main>
          <!-- Welcome Header -->
          <div class="welcome-header">
             <div class="wrapper-header">
@@ -57,9 +56,6 @@
                </button>
             </div>
          </div>
-      </header>
-      <!-- Main -->
-      <main>
          <!-- About us -->
          <section class="about">
             <div class="wrapper-about">
@@ -209,97 +205,89 @@
          </section>
          <!-- end vision -->
          <!-- Our Team -->
+         <div class="wrapper-team">
          <section class="team">
-            <div class="wrapper-team">
                <h2 class="team-intro">Our Team</h2>
                <!-- CEO -->
                <div class="team-grid">
                   <img src="images/john.jpg" alt="CEO photo" class="ceo-img">
                   <div class="ceo">
-                  <h3 class="team-title">John Doe</h3>
-                  <h4 class="team-subtitle">CEO and Co-owner</h4>
-                  <hr class="line-team">
-                  <p>
-                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-                     id in alias possimus excepturi. Ipsum doloribus, commodi, dolorum
-                     nihil delectus exercitationem, corporis odit quibusdam eos aut
-                     quod excepturi itaque fugit.
-                  </p>
-               </div>
-               <!-- CFO -->
+                     <h3 class="team-title">John Doe</h3>
+                     <h4 class="team-subtitle">CEO and Co-owner</h4>
+                     <hr class="line-team">
+                     <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                        id in alias possimus excepturi. Ipsum doloribus, commodi, dolorum
+                        nihil delectus exercitationem, corporis odit quibusdam eos aut
+                        quod excepturi itaque fugit.
+                     </p>
+                  </div>
+                  <!-- CFO -->
                   <img src="images/bob.jpg" alt="CFO photo" class="cfo-img">
                   <div class="cfo">
-                  <h3 class="team-title">Bob Rite</h3>
-                  <h4 class="team-subtitle">CFO and Co-owner</h4>
-                  <hr class="line-team">
-                  <p>
-                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-                     id in alias possimus excepturi. Ipsum doloribus, commodi, dolorum
-                     nihil delectus exercitationem, corporis odit quibusdam eos aut
-                     quod excepturi itaque fugit.
-                  </p>
+                     <h3 class="team-title">Bob Rite</h3>
+                     <h4 class="team-subtitle">CFO and Co-owner</h4>
+                     <hr class="line-team">
+                     <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                        id in alias possimus excepturi. Ipsum doloribus, commodi, dolorum
+                        nihil delectus exercitationem, corporis odit quibusdam eos aut
+                        quod excepturi itaque fugit.
+                     </p>
+                  </div>
                </div>
-               </div>
-            </div>
          </section>
+         </div>
          <!-- end our team -->
          <!-- Contact us -->
+         <div class="contact-grid">
          <section class="contact">
             <div class="wrapper-contact">
                <h2 class="contact-title">Contact Us</h2>
                <h3 class="contact-subtitle">Send us a message</h3>
-               <div class="contact-grid">
-               <div class="contact-question">
+
                   <form action="thanks.html" method="post">
                      <label for="fullname">Full Name</label>
                      <input id="fullname">
                   </form>
-               </div>
-               <div class="contact-question">
                   <form action="thanks.html" method="post">
                      <label for="email">Email</label>
                      <input id="email">
                   </form>
-               </div>
-               <div class="contact-question">
                   <form action="thanks.html" method="post">
                      <label for="message">Message</label>
                      <textarea id="message"></textarea>
                   </form>
-               </div>
-               <button type="submit">Send</button>
-            </div>
+                  <button type="submit">Send</button>
+               
             </div>
          </section>
          <!-- Hours of Operation-->
          <section class="hours">
-            <div class="contact-grid">
             <div class="wrapper-hours">
-               <h3 class="hours">Hours of operation</h3>
-               <table>
-                  <thead>
-                     <tr>
-                        <th>Days</th>
-                        <th>Hours</th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                     <tr>
-                        <td>Monday-Friday</td>
-                        <td>9 AM - 6 PM</td>
-                     </tr>
-                     <tr>
-                        <td>Saturday-Sunday</td>
-                        <td>Closed</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </div>
+                  <h3 class="hours-title">Hours of operation</h3>
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>Days</th>
+                           <th>Hours</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Monday-Friday</td>
+                           <td>9 AM - 6 PM</td>
+                        </tr>
+                        <tr>
+                           <td>Saturday-Sunday</td>
+                           <td>Closed</td>
+                        </tr>
+                     </tbody>
+                  </table>
             </div>
          </section>
          <!-- Location -->
          <section class="location">
-            <div class="contact-grid">
             <div class="wrapper-location">
                <h3>Location</h3>
                <iframe
@@ -313,8 +301,8 @@
                   class="googlemap"
                   ></iframe>
             </div>
-            </div>
          </section>
+         </div>
          <!-- end main -->
       </main>
       <!-- Footer -->
