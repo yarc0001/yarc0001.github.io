@@ -136,6 +136,10 @@ body {
   padding: 14px 0 0 14px;
 }
 
+@media screen and (max-width: 1200px){
+
+    /* Navigation */
+
 .wrapper-nav {
   background-color: #222;
   padding: 14px;
@@ -364,7 +368,7 @@ h1 {
   display: grid;
 }
 
-.team-info {
+.ceo, .cfo {
   display: flex;
   flex-direction: column;
   background-color: #ffe6ac;
@@ -492,13 +496,12 @@ footer {
 footer a {
   color: #c78c06;
 }
+}
 
 /* Desktop set up */
 
-@media screen and (min-width: 760px) {
-  * {
-    max-width: 1200px;
-  }
+@media screen and (min-width: 760px){
+
   /* Navigation */
 
   .wrapper-nav {
@@ -531,7 +534,7 @@ footer a {
 
   .wrapper-nav ul {
     list-style: none;
-    width: 100%;
+    width: auto;
     display: flex;
     padding: 0;
     margin-top: 5px;
@@ -540,7 +543,7 @@ footer a {
   }
 
   .wrapper-nav li {
-    margin-right: 50px;
+    margin-right: auto;
   }
 
   .wrapper-nav a {
@@ -598,6 +601,7 @@ footer a {
     margin-top: auto;
   }
 
+
   /* About us */
 
   .wrapper-about {
@@ -627,7 +631,7 @@ footer a {
   }
 
   .paragraph-about {
-    font-size: small;
+    font-size: 1rem;
     padding: 0px 7px 14px 14px;
     display: flex;
     flex-direction: column;
@@ -638,8 +642,10 @@ footer a {
   /* Services */
 
   .wrapper-services {
-    padding: 20px;
+      padding: 40px;
+      padding-top: 50px;
   }
+  
 
   .services-title {
     font-size: 3.5rem;
@@ -654,7 +660,7 @@ footer a {
   }
 
   .wrapper-services p {
-    padding: 10px;
+    padding: 9px;
     line-height: 1.5;
   }
 
@@ -663,12 +669,16 @@ footer a {
     border: none;
     text-decoration: none;
     width: 92%;
-    padding: 30px 14px;
-    margin: 10px 9px;
+    padding: 30px 40px;
+    margin: 10px;
     color: white;
     background-color: black;
     font-size: 25px;
   }
+
+    .fa-solid {
+        padding: 12px;
+    }
 
   .services-grid {
     display: grid;
@@ -676,7 +686,7 @@ footer a {
       "digital digital digital marketing marketing marketing"
       "video video web web print print";
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 0.5fr;
+    grid-template-rows: 1fr 0.2fr;
     grid-gap: 1em;
   }
 
@@ -728,4 +738,108 @@ footer a {
     width: 100%;
     height: auto;
   }
+
+  /* Vision */
+
+  .wrapper-vision {
+    width: auto;
+    background: url(../images/vision.jpg) center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 230px;
+    font-size: 15px;
+    padding: 30px 130px 30px 130px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+  }
+  
+  .vision-text h3 {
+    margin: 18px 0 15px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+  }
+  
+  .vision button {
+    color: white;
+    border: solid #c78c06;
+    grid-row: 6;
+    padding-left: 12px;
+    height: 100px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 16px;
+    background-color: #17263d;
+    letter-spacing: 1px;
+  }
+
+  /* Team */
+
+.team-intro{    
+  font-size: 3.5rem;
+  margin: 30px 0 10px 0;
+  font-weight: bolder;}
+
+.team-grid{display: grid;
+    grid-template-areas: 
+    "ceoimg ceo"
+    "cfo cfoimg"
+  ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin: 100px;
+    margin-top: 30px;
+}
+
+.team-title {
+  margin: 20px 20px 10px 20px;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.team-subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 0 0 14px;
+}
+
+.line-team {
+  border: 1px solid #c78c06;
+  margin: 8px 8px 14px 14px;
+}
+.team p {
+  margin: 0px 20px 20px 20px;
+}
+
+
+.wrapper-team img {
+  width: 100%;
+  height: auto;
+}
+
+
+.ceo {
+  background-color: #ffe6ac;
+  padding-bottom: 10px;
+  grid-area: ceo;
+}
+
+.ceo-img {
+  grid-area: ceoimg;
+}
+
+.cfo {
+  background-color: #ffe6ac;
+  padding-bottom: 10px;
+  grid-area: cfo;
+}
+
+.cfo-img {
+  grid-area: cfoimg;
+}
+
+
+
 }
