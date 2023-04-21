@@ -160,7 +160,7 @@ nav ul li {
   margin-top: 0;
 }
 
-.home-nav {
+.home-nav a li{
   background-color: #c78c06;
   padding: 16px;
   margin-top: 0;
@@ -169,9 +169,13 @@ nav ul li {
 
 nav .home-nav a:visited {
   font-size: 18px;
-  color: #222;
   display: block;
 }
+
+.wrapper-nav input{padding-left: 198px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 60px;}
 
 nav a:visited {
   font-size: 18px;
@@ -185,17 +189,6 @@ nav ul li a,
 .c1 {
   text-decoration: none;
   color: #c78c06;
-}
-
-.search-bar {
-  padding: 1px 0 1px 0;
-}
-.search-bar input {
-  background-color: white;
-  width: 90%;
-  height: 31px;
-  margin-top: 5px;
-  border: none;
 }
 
 .fa-magnifying-glass {
@@ -576,10 +569,13 @@ nav a {
   color: #c78c06;
 }
 
-.input {
-  width: 90%;
-  padding: 10px;
-}
+.wrapper-nav input {
+padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+  width: auto;}
+
 
 .fa-magnifying-glass {
   background-color: #222;
